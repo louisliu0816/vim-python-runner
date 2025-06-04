@@ -45,11 +45,24 @@ One of the supported shells: cmd.exe, powershell, or bash
 ## Usage
 Open a .py file in Vim and press <F5> or <F8>.
 
-If the file is unsaved, a temporary .py file will be generated and executed.
+● If the file is unnamed, it will be saved to a temporary file.
 
-Output will appear in an integrated terminal window.
+● If a terminal already exists in the current tab/tabpage, it will be reused.
 
-Cursor focus is automatically managed.
+● If no suitable terminal is found, a new one will be created.
+
+● The plugin automatically clears the screen and runs the script using:
+
+  - py.exe in cmd.exe or PowerShell (Windows)
+
+  - python3 in bash (Unix-like)
+
+## Notes
+● Only .py files are supported.
+
+● Requires Vim 8+ or Neovim (with terminal support).
+
+● The plugin assumes you have Python installed and available as py.exe or python3.
 
 ## License
 MIT
