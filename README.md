@@ -28,9 +28,8 @@ Then reload Vim and run:
 ## Key Mappings
 This plugin maps the following keys in normal mode:
 
-Key	Description
-<F5>	Run current Python file in horizontal terminal.
-<F8>	Run current Python file in new terminal tab.
+`<F5>`: Run current Python file in horizontal terminal.  
+`<F8>`: Run current Python file in new terminal tab.
 
 You can change the mappings by editing the lines at the bottom of the script.
 
