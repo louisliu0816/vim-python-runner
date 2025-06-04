@@ -13,7 +13,9 @@ A lightweight Vim plugin that allows you to run the current Python script direct
 
 ## Installation
 
-You can install this plugin using any Vim plugin manager, for example:
+Copy the function and mappings into your .vimrc or source it from a separate file.
+
+Or, You can install this plugin using any Vim plugin manager, for example:
 
 ### With [vim-plug](https://github.com/junegunn/vim-plug)
 
